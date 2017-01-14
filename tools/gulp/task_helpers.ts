@@ -189,7 +189,7 @@ export function serverTask(livereload = true) {
     gulpConnect.server({
       root: 'dist/',
       livereload: livereload,
-      port: 4200,
+      port: 4201,
       fallback: 'dist/index.html'
     });
   };
